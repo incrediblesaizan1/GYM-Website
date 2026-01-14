@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.progress {
+    height: 2px;
+    background-color: white;
+    animation-name: progress;
+    animation-duration: 1s;
+    }
+    
+    @keyframes progress {
+from {
+        width: 0%;
+        background-color: red;
+    }
+
+100%{
+    width: 100%;
+background-color: red;
+}
+    }
+header{
+    position: sticky;
+    z-index: 2;
+    top: 0;
+}
+nav{
+    display: flex;
+    height: 120px;
+    background-color: white;
+    font-family:cursive;
+}
+.logo img{
+    margin: 10px 40px;
+    /* filter: invert(100%); */
+    height: 80px;
+    cursor: pointer;
+    }
+    .logo h3{
+        color: black;
+        margin: -27px 33px;
+        font-size: 20px;
+        cursor: pointer;
+}
+.logo h3:hover{
+text-decoration: underline;
+color: aquamarine;
+}
+.logo img:hover{
+filter: contrast(0.5);
+}
+nav ul{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+    font-size: x-large;
+}
+nav ul li a:hover{
+text-decoration: underline;
+font-size: 25px;
+color: rgba(112, 191, 1, 1);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#two a{
+    color: #00000040;
+    text-decoration: underline;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    height: 32px;
+    margin: 30px 13px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: lightcoral;
+    color: white;
+ }
+.two{
+    background-image: url('/about us/Screenshot 2024-06-10 091105.png');
+    height: 256px;
+}
+body{
+    background-color: rgb(211, 205, 205);
+}
+.img1{
+    height:500px;
+    margin: 0px 30px;
+    position: relative;
+    bottom: 340px;
+    float: right;
+    }
+    .program{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        align-content: center;
+        }
+        .program h2{
+            font-size:xx-large ;
+        position: relative;
+        top: 150px;
+        right: 110px; 
+        color: #232c59;
+    }
+    .program p{
+        font-size: 20px;
+        position: relative;
+        top: 160px;
+        right:100px;
+        color: aliceblue;
+        font-family: cursive;
+        }
+        .container{
+            background-color: white;
+        margin-top: -275px;
+        height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+       .container .imgcon{
+        height: 150px;
+        margin: 10px;
+       }
+       
+       .container h2{
+        width: 270px;
+        height: 235px;
+        align-content: center;
+        text-align: center;
+        font-family: math;
+        position: relative; 
+    left: 350px;
+    border: 5px solid red;
+    cursor: pointer;
+       }
+       .row1{
+        position: relative;
+        top: -165px;
+        left: 500px;
+       }
+       .row2{
+        position: relative;
+        top: 0;
+        right: 100px;
+       }
+       .imgcon{
+        position: relative;
+        top: 100px;
+       }
+       .photos{
+display: flex;
+       }
+       .sk1{
+        z-index: 5;
+        top: 3;
+        height: 1058px;
+        width: 808px;
+       }
+       #sk1{
+        height: 1058px;
+        width: 803px;
+        margin-right: 5px;
+       }
+.sk2{
+    z-index: 5;
+    top: 3;
+}
+.head01{
+   height: 200px;
+background: aliceblue;
+position: relative;
+z-index: 6;
+top: 4;
+align-content: center;
+}
+#head01{
+    text-align: center;
+    background: aliceblue;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* margin: 100px; */
+position: relative;
+z-index: 6;
+top: 4;
+}
+       footer{
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        align-content: center;
+        margin-top: -4px;
+        height: 40px;
+        font-family: cursive;
+    }

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(186, 225, 225);
+            font-family: monospace;
+            }
+            .progress {
+    height: 2px;
+    background-color: rgb(186, 225, 225);
+    animation-name: progress;
+    animation-duration: 1s;
+    }
+    
+    @keyframes progress {
+from {
+        width: 0%;
+        background-color: red;
+    }
+
+100%{
+    width: 100%;
+background-color: red;
+}
+    }
+            nav{
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    display: flex;
+}
+.logo img{
+    margin: 10px 29px;
+
+    height: 80px;
+    cursor: pointer;
+    }
+    .logo h3{
+        color: white;
+        margin: -24px 18px;
+        font-size: 20px;
+        cursor: pointer;
+}
+.logo h3:hover{
+text-decoration: underline;
+color: #967fff;
+}
+.logo img:hover{
+filter: contrast(0.5);
+}
+nav ul{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+    font-size: x-large;
+}
+nav ul li a:hover{
+text-decoration: underline;
+font-size: 25px;
+color: rgb(43 56 24 / 28%);
+}
+nav ul li a:active{
+    color: #00000040;
+    text-decoration: underline;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+button{
+   background-color: black;
+   color: aliceblue;
+   height: 42px;
+   margin: 30px 13px;
+   padding: 6px 10px;
+   border-radius: 5px;
+}
+button:hover{
+    background-color: tomato;
+    color: black;
+}
+                h1{
+                     display: flex;
+         justify-content: center;            
+        
+                 }
+                 .emoji{
+                    font-size: 100px;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                 }
+                 .container{
+                    position: relative;
+                    top: 120px;
+                    left: 6px;
+                 }
+    </style>
+</head>
+<body>
+    <header>  
+        <div class="progress"></div>  
+        <nav>
+            <div class="logo">
+                <a href="/index.html"><img src="/img/download.png" alt=""></a>
+                <a href="/index.html"><h3>SK Fitness</h3></a>
+               </div>
+           <ul>
+            <li id="one"><a href="/index.html">Home</a></li>
+            <li id="two"><a href="/about us/about us.html">About Us</a></li>
+            <li id="three"><a href="/trainers/trainers.html">Trainers</a></li>
+            <li id="four"><a href="/Contract/contract.html">Contract</a></li>
+           </ul>
+           <a href="/Contract/contract.html"><button class="btn">For More Information</button></a>
+           <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlKpGlBJpwwwzPLVvFsXcbpRBXNCGjrWPDSjFdsBlXwCFnjnBzRfZDvgSHTpzcThrLQmvq" target="_blank"><button class="btn">Email Us</button></a>
+
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Thanks for Visiting our Website❤️</h1>
+    <h1>Your form is submitted.You will be informed after a While. </h1>
+ <div class="emoji">  😊</div>
+    </div>
+</body>
+</html>

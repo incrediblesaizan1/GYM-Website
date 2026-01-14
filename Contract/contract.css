@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    z-index: 2;
+    top: 0;
+}
+.progress {
+    height: 2px;
+    background-color: white;
+    animation-name: progress;
+    animation-duration: 1s;
+    }
+    
+    @keyframes progress {
+from {
+        width: 0%;
+        background-color: red;
+    }
+
+100%{
+    width: 100%;
+background-color: red;
+}
+    }
+nav{
+    display: flex;
+    height: 120px;
+    background-color: white;
+    font-family:cursive;
+}
+.logo img{
+    margin: 10px 40px;
+    /* filter: invert(100%); */
+    height: 80px;
+    cursor: pointer;
+    }
+    .logo h3{
+        color: black;
+        margin: -27px 33px;
+        font-size: 20px;
+        cursor: pointer;
+}
+.logo h3:hover{
+text-decoration: underline;
+color: aquamarine;
+}
+.logo img:hover{
+filter: contrast(0.5);
+}
+nav ul{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+    font-size: x-large;
+}
+nav ul li a:hover{
+text-decoration: underline;
+font-size: 25px;
+color: rgba(112, 191, 1, 1);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#four a{
+    color: #00000040;
+    text-decoration: underline;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    height: 32px;
+    margin: 30px 13px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: lightcoral;
+    color: white;
+ }
+.two{
+    background-image: url('/Contract/Screenshot\ 2024-06-10\ 091344.png');
+    background-size: cover;
+    height: 209px;
+    width: 1529px;
+}
+
+.info{
+    text-align: center;
+    width: 44%;
+    margin: auto;
+    /* border: 2px solid rgb(233, 153, 153); */
+    margin-top: 100px;
+}
+.img1{
+    width: 600px;
+}
+.heading1{
+    text-align: start;
+    font-size: 20px;
+    color: #f53f1e;
+    font-family:cursive;
+    margin: 20px;
+}
+.heading2{
+    text-align: start;
+    margin-top: -27px;
+    font-size: 86px;
+    color: #242751;
+    font-family: sans-serif;
+}
+#para1{
+    margin: 27px 0;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: cursive;
+    filter: invert(50%);
+}
+.details{
+    margin: auto;
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.phone{
+    margin: 10px 0;
+    font-weight: bold;
+    color: #242751;
+    font-family: sans-serif;
+    font-size: larger;
+}
+#img3{
+    height: 40px ;
+}
+#para2{
+    font-size: 15px;
+    margin: 22px 0px;
+    font-family: math;
+    filter: invert(50%);
+}
+.email{
+   margin-left:300px;
+   font-weight: bold;
+    color: #242751;
+    font-family: sans-serif;
+    font-size: larger;
+}
+#img2{
+        height: 40px;
+        margin-bottom: -4px;
+        margin-top: 15px;
+}
+.para3{
+    margin: 20px 0px;
+    font-size: 15px;
+    color: #f53f1e;
+}
+.details2{
+    margin: auto;
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;    
+}
+.address{
+    margin: 10px 0;
+    font-weight: bold;
+    color: #242751;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.para4{
+    font-size: 15px;
+    margin: 29px 0px;
+    font-family: math;
+    filter: invert(50%);
+    line-height: 27px;
+}
+#img5{
+    height: 40px;
+}
+.follow{
+    margin-left:200px;
+    font-weight: bold;
+    color: #242751;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.facebook{
+    margin: 17px 0;
+}
+.insta{
+    height: 40px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+
+footer{
+    background-color: black;
+    font-family: cursive;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+    height: 40px;
+}

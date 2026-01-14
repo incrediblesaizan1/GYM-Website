@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+
+.progress {
+  height: 2px;
+  background-color: black;
+  animation-name: progress;
+  animation-duration: 1s;
+}
+
+@keyframes progress {
+  from {
+    width: 0%;
+    background-color: red;
+  }
+
+  100% {
+    width: 100%;
+    background-color: red;
+  }
+}
+.backgroundImage { 
+  position: relative;
+  /* width: 100%;
+  height: 100vh; */
+  background-image: url('/img/shutterstock_1180916065_1200x1200.webp');
+  background-size: contain;
+ }
+
+nav {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  display: flex;
+}
+nav i::before{
+  display: none;
+}
+
+.logo img {
+  margin: 10px 40px;
+  filter: invert(100%);
+  height: 80px;
+  cursor: pointer;
+}
+
+.logo h3 {
+  color: white;
+  margin: -29px 33px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.logo a {
+  text-decoration: none;
+}
+.logo a h3:hover {
+  text-decoration: underline;
+  color: aquamarine;
+}
+
+.logo img:hover {
+  filter: contrast(0.5);
+}
+
+nav ul {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+  font-size: x-large;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a::before {
+  content: " ";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #ffffff;
+  transition: all 0.3s;
+}
+nav ul li a:hover::before {
+  width: 100%;
+}
+
+a:active {
+  color: #00000040;
+  text-decoration: underline;
+}
+.klalka {
+  background-color: #36e708;
+  color: aliceblue;
+}
+#one {
+  position: relative;
+  left: -68px;
+}
+
+#two {
+  position: relative;
+  left: -90px;
+}
+
+#three {
+  position: relative;
+  left: -14px;
+}
+
+#four {
+  position: relative;
+  left: -34px;
+}
+
+button {
+  background-color: black;
+  color: aliceblue;
+  height: 32px;
+  margin: 30px 13px;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+main {
+  min-height: 90vh;
+}
+.container {
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 33%;
+  margin: 96px 850px;
+  padding: 75px;
+}
+.container img {
+  font-size: 45px;
+  color: #658a8a;
+  position: relative;
+  left: 10px;
+  top: 15px;
+  filter: invert(100%);
+}
+.containerD {
+  display: none;
+}
+.welcome {
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 33%;
+  margin: 106px 850px;
+  padding: 75px;
+}
+.welcome span{
+  
+  color: #1273f680;
+}
+.welcomeSk {
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 33%;
+  margin: 106px 850px;
+  padding: 75px;
+  color: white;
+  font-size: 35px;
+}
+.welcomeSk span {
+  margin-left: 39px;
+  font-size: 75px;
+  font-weight: 100;
+  color: #1273f680;
+}
+.welcomeD {
+  display: none;
+}
+.welcome h1 {
+  color: white;
+  text-align: center;
+  align-content: center;
+  font-size: 60px;
+}
+.welcomeModal {
+  position: absolute;
+  top: 30vh;
+  left: 368px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  width: 561px;
+  height: 400px;
+  z-index: 2;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(15, 15, 37) 11%,
+    rgb(7, 62, 73) 100%
+  );
+  color: white;
+  border-radius: 10px;
+}
+.welcomeModalD {
+  display: none;
+}
+.welcomeModal h1 {
+  position: absolute;
+  top: 0;
+  font-size: 60px;
+}
+.welcomeModal p {
+  font-size: 45px;
+  color: #658a8a;
+}
+.container h2 {
+  position: relative;
+  top: -68px;
+  color: aliceblue;
+  font-size: 30px;
+}
+.container h3 {
+  position: relative;
+  top: -18px;
+  text-align: center;
+  color: rgb(92, 158, 216);
+  font-size: 30px;
+}
+
+.form {
+  margin-left: 110px;
+  margin-bottom: 10px;
+}
+
+.form input {
+  padding: 10px 60px;
+  border-radius: 7px;
+}
+
+.submit {
+  width: 315px;
+  margin: 0 114px;
+  padding: 7px 134px;
+  margin-left: 2px;
+  background-color: rgb(42, 46, 45);
+  color: white;
+  border: none;
+}
+.submit a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.submit:hover {
+  background-color: rgb(170, 224, 116);
+  color: #383b3b;
+}
+
+.submitBtnC2 {
+  width: 315px;
+  margin: 0 114px;
+  padding: 7px 134px;
+  margin-left: 2px;
+  background-color: rgb(42, 46, 45);
+  color: white;
+  border: none;
+}
+.submitBtnC2 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.submitBtnC2:hover {
+  background-color: rgb(170, 224, 116);
+  color: #383b3b;
+}
+
+.signUp {
+  position: absolute;
+  left: 850px;
+  bottom: 170px;
+}
+.signUpD {
+  display: none;
+}
+.signUp p {
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  width: 650px;
+  height: 50px;
+  align-content: center;
+  border-radius: 15px;
+}
+.signUp span {
+  color: #7724e4;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: large;
+  font-family: sans-serif;
+}
+.signUpSp:hover {
+  color: rgb(218, 102, 24);
+  text-decoration: none;
+}
+.warn2 {
+  position: relative;
+  bottom: 45px;
+  right: 70px;
+  color: red;
+  font-size: 18px;
+  width: 190px;
+}
+.warn3 {
+  position: relative;
+  right: 70px;
+  color: red;
+  font-size: 18px;
+  width: 190px;
+}
+footer {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  align-content: center;
+  height: 40px;
+  width: 100%;
+}
+.btnSign {
+  display: none !important;
+}

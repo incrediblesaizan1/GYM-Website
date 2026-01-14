@@ -1,0 +1,214 @@
+.container2 {
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 33%;
+  margin: 106px 850px;
+  padding: 30px 75px;
+  position: relative;
+  top: -79px;
+}
+.container2d {
+  display: none;
+}
+
+.container2 h2 {
+  position: relative;
+  top: -20px;
+  left: -50px;
+  color: aliceblue;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.container2 h3 {
+  position: relative;
+  top: -18px;
+  text-align: center;
+  color: rgb(92, 158, 216);
+  font-size: 30px;
+}
+.modalSignUpSubmit {
+  width: 315px;
+  margin: 0 3px;
+  padding: 7px 134px;
+  background-color: rgb(42, 46, 45);
+  color: white;
+  border: none;
+}
+.modalSignInSubmit:hover {
+  background-color: rgb(170, 224, 116);
+  color: #383b3b;
+}
+
+.signIn {
+  position: absolute;
+  left: 850px;
+  bottom: 178px;
+}
+.signIn2 {
+  display: none;
+}
+.signIn p {
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  width: 650px;
+  height: 50px;
+  align-content: center;
+  border-radius: 15px;
+}
+.signIn span {
+  color: #7724e4;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: large;
+  font-family: sans-serif;
+}
+.signInSp:hover{
+  color: rgb(218, 102, 24);
+  text-decoration: none;
+  }
+
+  
+.modalSignIn{
+  position: absolute;
+  top: 20vh;
+    left: 290px;
+  text-align: center;
+  background: white;
+  width: 761px;
+  height: 450px;
+  z-index: 2;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(15, 15, 37) 11%,
+    rgb(7, 62, 73) 100%
+  );
+  color: white;
+  border-radius: 10px;
+}
+.modalSignInD{
+  display: none;
+}
+.modalSignIn h2 {
+  margin: 10px 30px;
+  position: relative;
+  left: -230px;
+  font-size: 40px;
+}
+.modalSignIn h3{
+  font-size: 45px;
+  color: #658a8a;
+  position: relative;
+  left: -90px;
+}
+.modalSignIn img{
+  font-size: 45px;
+  color: #658a8a;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  filter: invert(100%);
+}
+.modalSignIn input{
+  margin: 10px 10px ;
+  position: relative;
+  top: 20px;
+  right: 70px;
+}
+.modalSignIn p{
+  margin-top: 30px;
+  position: absolute;
+  left: 210px; 
+}
+
+.modalSignIn span {
+  color: #7724e4;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: large;
+  font-family: sans-serif;
+}
+.modalSignUpSubmit:hover{
+  background-color: rgb(170, 224, 116);
+  color: #383b3b;
+}
+.signUpSp1:hover{
+color: rgb(218, 102, 24);
+text-decoration: none;
+}
+.warn{
+  margin-left: -202px;
+    bottom: 82px;
+  color: red;
+  font-size: large;
+}
+.warn1{
+  bottom: 43px;
+    color: red;
+    font-size: x-large;
+    text-align: justify;
+    width: 230px;
+}
+.warnD{
+  display: none;
+}
+.modalSignUp{
+  position: absolute;
+  top: 10vh;
+  left: 290px;
+  text-align: center;
+  background: white;
+  width: 801px;
+  height: 550px;
+  z-index: 2;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(15, 15, 37) 11%,
+    rgb(7, 62, 73) 100%
+  );
+  color: white;
+  border-radius: 10px;
+}
+.modalSignUpD{
+  display: none;
+}
+
+.modalSignUp h2 {
+  margin: 20px 30px;
+  position: relative;
+  left: -60px;
+  font-size: 40px;
+}
+.modalSignUp h3{
+  font-size: 35px;
+  color: #658a8a;
+  position: relative;
+  left: -90px;
+  margin-bottom: 30px;
+}
+.modalSignUp p{
+  position: relative;
+  left: 25px;
+}
+.signInSp1{
+  color: #7724e4;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: large;
+  font-family: sans-serif;
+}
+.signInSp1:hover{
+color: rgb(218, 102, 24);
+text-decoration: none;
+}
+.incorrect{
+  color: red;
+  font-size: larger;
+  text-align: center;
+}
+.incorrect1{
+    color: red;
+    margin: -201px;
+}
